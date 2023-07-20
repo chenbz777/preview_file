@@ -31,3 +31,25 @@ yarn
 yarn dev
 ```
 
+
+
+## docker部署(v1)
+
+#### 安装
+
+```bash
+docker pull chenbz777/preview_file:v1
+```
+
+#### 运行
+
+```bash
+docker run -d -p 80:80 chenbz777/preview_file:v1
+```
+
+#### 访问
+
+```
+http://localhost?url=
+```
+
