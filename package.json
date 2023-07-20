@@ -1,0 +1,31 @@
+{
+  "name": "preview_file",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .eslintignore --fix src"
+  },
+  "dependencies": {
+    "@vue-office/pdf": "^1.2.0",
+    "axios": "^1.4.0",
+    "vue": "^3.2.47",
+    "vue-demi": "^0.14.5",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/eslint-parser": "^7.21.3",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "sass": "^1.62.0",
+    "unplugin-auto-import": "^0.15.3",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.2.0",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
