@@ -11,7 +11,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <iframe :src="`http://view.officeapps.live.com/op/view.aspx?src=${props.fileData.url}`" class="iframe_css" />
+  <iframe :src="`https://view.officeapps.live.com/op/view.aspx?src=${props.fileData.url}`" class="iframe_css" />
 </template>
 
 <style scoped>

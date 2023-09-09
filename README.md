@@ -13,7 +13,6 @@
 | axios           |      |
 | @vue-office/pdf |      |
 | vue-demi        |      |
-| officeapps      |      |
 
 
 
